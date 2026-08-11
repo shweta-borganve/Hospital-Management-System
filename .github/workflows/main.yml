@@ -26,4 +26,5 @@ jobs:
 
     - name: Run Tests with Pytest
       run: |
-        pytest 
+        cd Hospital-Management-System
+        python -m pytest 
